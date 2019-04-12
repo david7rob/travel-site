@@ -4,10 +4,10 @@
 
     &__image {
         display: block;
-
     }
 
     &__text-content {
+        padding-top: 60px;
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
@@ -16,6 +16,7 @@
     }
 
     &__title {
+        font-size: 0.6rem;
         font-weight: 300;
         color: #004080;
         margin: 0;
@@ -44,6 +45,7 @@
         margin: 0;
         @mixin atSmall {
             font-size: 2.9rem;
+            
         }
 
     }
